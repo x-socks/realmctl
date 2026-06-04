@@ -19,7 +19,7 @@ set -o pipefail
 : "${REALM_WATCHDOG_INTERVAL:=5}"          # watchdog 检查间隔（秒）
 : "${REALM_SELF_PATH:=/usr/local/bin/realmctl}"
 
-C_RED='\033[0;31m'; C_GRN='\033[0;32m'; C_YLW='\033[0;33m'; C_BLU='\033[0;34m'; C_RST='\033[0m'
+C_RED=$'\033[0;31m'; C_GRN=$'\033[0;32m'; C_YLW=$'\033[0;33m'; C_BLU=$'\033[0;34m'; C_RST=$'\033[0m'
 
 # ============================================================
 # 工具函数
